@@ -1,6 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/cubano');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f9f9ff;
 }
@@ -29,12 +33,13 @@ main {
 
 .nav-link:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .nav-link::before {
   transition: 300ms;
   height: 3px;
-  content: "";
+  content: '';
   position: absolute;
   background-color: #6366f1;
 }
