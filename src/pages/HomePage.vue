@@ -11,18 +11,18 @@
             focus
             on mobile-first design and development. Excited to leverage skills in the future as part of a fast-paced,
             quality-driven team in order to build better experiences on the web.</p>
-          <Button label="Resume" type="button" class="mr-3 p-button-raised"></Button>
+            <font-awesome-icon class="socialMediaIcons mr-3" icon="fa-brands fa-linkedin" style="color: #0077b5" />
+            <font-awesome-icon class="socialMediaIcons" icon="fa-brands fa-github" style="color: #222222"/>
         </section>
       </div>
       <div class="col-12 md:col-6">
-        <img :src="me" alt="Image" class="md:ml-auto block md:h-full meImg"
+        <img :src="me" alt="Image" class="md:ml-auto block md:h-30rem lg:h-full meImg"
           style="clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%)">
       </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import Button from 'primevue/button'
 import me from '@/assets/images/me.jpg'
 import TypeWriter from '@/components/TypeWriter.vue';
 </script>
@@ -33,5 +33,11 @@ import TypeWriter from '@/components/TypeWriter.vue';
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.socialMediaIcons {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 </style>
