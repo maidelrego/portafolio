@@ -41,46 +41,6 @@
             Hire Me
           </a>
         </div>
-
-        <!-- <div class="bg-surface-0 dark:bg-surface-900 flex flex-col lg:flex-row">
-          <div class="flex flex-col lg:flex-row justify-center md:justify-normal flex-1">
-            <div class="order-2 lg:order-1 relative flex-1 z-20 flex items-center justify-center">
-              <div class="flex items-center justify-center h-full">
-                <div class="w-full max-w-2xl px-6 py-12 lg:p-12 xl:p-16 text-center lg:text-left">
-                  <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">
-                    Maydel Rego
-                  </h6>
-
-                  <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
-                    Full Stack Developer
-                  </h1>
-
-                  <p class="font-normal text-gray-600 text-md md:text-xl mb-16">
-                    I have a passion for software. I enjoy creating tools that make life easier for
-                    people.
-                  </p>
-
-                  <a
-                    href="mailto:maidelrego@yahoo.com?subject=Inquiry%20from%20Portfolio"
-                    target="_blank"
-                    rel="noopener"
-                    class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
-                  >
-                    Hire Me
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="order-1 lg:order-2 relative flex-1">
-              <img
-                src="/me.jpg"
-                alt="hero-1"
-                class="h-full w-full object-cover lg:[clip-path:polygon(12%_0,100%_0%,100%_100%,0_100%)]"
-              />
-            </div>
-          </div>
-        </div> -->
       </div>
     </section>
 
