@@ -16,9 +16,11 @@
         <div class="text-center">
           <div class="flex justify-center mb-16">
             <img
-              src="/me.jpg"
-              alt="Image"
-              class="h-40 w-40 md:h-54 md:w-54 object-cover rounded-full"
+              src="/me_optimized.jpg"
+              alt="Maydel Rego"
+              class="rounded-full ring-4 ring-gray-200 shadow-xl"
+              style="width: 256px; height: 256px; object-fit: cover;"
+              loading="eager"
             />
           </div>
 
