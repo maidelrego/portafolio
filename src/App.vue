@@ -76,6 +76,7 @@
                 </p>
 
                 <button
+                  v-if="project.url"
                   class="p-2 bg-gray-50 mt-5 font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500"
                   @click="() => goToProject(project.url)"
                 >
@@ -216,6 +217,16 @@ import { ref } from 'vue'
 const projectsList = ref([
   {
     id: 1,
+    title: 'PresGroup Realty',
+    url: '',
+    description: `
+      A comprehensive real estate platform built with Vue.js and Vuetify, featuring automated  
+      SendGrid email workflows, TinyMCE rich-text editing, and Vuex state management.  
+      Integrated Google Analytics with Chart.js dashboards for real-time user insights and data-driven optimizations
+    `,
+  },
+  {
+    id: 2,
     title: 'Lexa Quest',
     url: 'https://lexaquest.online',
     description: `
@@ -225,7 +236,7 @@ const projectsList = ref([
     `,
   },
   {
-    id: 2,
+    id: 3,
     title: "Kay's Barbershop",
     url: 'https://kaythebarber.com',
     description: `
@@ -234,7 +245,7 @@ const projectsList = ref([
     and a secure admin dashboard for portfolio & service management`,
   },
   {
-    id: 3,
+    id: 4,
     title: "Yoly's Delights",
     url: 'https://www.yolysdelights.com',
     description: `A modern Next.js 15 e-commerce platform for Cuban pastries with React 19, Redux Toolkit,  
@@ -242,7 +253,7 @@ const projectsList = ref([
       and Strapi CMS for content management with optimized server-state caching`,
   },
   {
-    id: 4,
+    id: 5,
     title: 'TourneyForge',
     url: 'https://e-sports-tournaments-react-client.vercel.app',
     description: `A React-based e-sports tournament management platform with a Node.js backend.  
