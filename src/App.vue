@@ -237,9 +237,9 @@ const projectsList = ref([
     id: 3,
     title: "Yoly's Delights",
     url: 'https://www.yolysdelights.com',
-    description: `A headless Strapi e-commerce for Cuban food ordering with Vue 3, Vuetify 3, and Pinia.  
-      Integrated Stripe for payments and SendGrid for order confirmations, plus a  
-      Strapi CMS dashboard for product & order management`,
+    description: `A modern Next.js 15 e-commerce platform for Cuban pastries with React 19, Redux Toolkit,  
+      TanStack Query, and Tailwind CSS. Features Stripe checkout, SendGrid automation,  
+      and Strapi CMS for content management with optimized server-state caching`,
   },
   {
     id: 4,
