@@ -19,7 +19,7 @@
               src="/me_optimized.jpg"
               alt="Maydel Rego"
               class="rounded-full ring-4 ring-gray-200 shadow-xl"
-              style="width: 256px; height: 256px; object-fit: cover;"
+              style="width: 256px; height: 256px; object-fit: cover"
               loading="eager"
             />
           </div>
